@@ -382,7 +382,8 @@ font-size: 18pt;
 
 .verticalNevBar{
   position: absolute;
-    right: 0;
+    /*top: 0;*/
+    right:0;
     float: right;
     z-index:0;
     height:100%;
@@ -408,7 +409,6 @@ font-size: 18pt;
 .darkStar{
     opacity:0.3;
     color:black;
-	transition: opacity 300ms ease;
 }
 .darkStar:hover{
 /*    color:#bec47f;
@@ -419,7 +419,7 @@ font-size: 18pt;
 .shineStar{
     opacity:1.0;
     color:#FFF;
-	transition: opacity 300ms ease;
+    transition: opacity 300ms ease;
 }
 
 .sticky{
